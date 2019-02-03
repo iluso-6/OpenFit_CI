@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CI Explorer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+.container-fluid{
+margin-top: 50px;
+}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 75%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   
+}
+
+
+.wrapper {
+  background-color: #314051;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 2px;
+  width: 100%;
+}
+.ctrl{
+  border: 2px solid #314051;
+  padding:2rem;
+    width: 100%;
+}
+</style>  
+ <div class="container-fluid"> 
+ <div class="row">
+ <div class="wrapper col-md-9">
+	  <div class="iframe-container">
+    <iframe src="https://openfit-98a61.firebaseapp.com/home" frameborder="0"></iframe>
+  </div>
+   </div>
+    <div class="col-md-3">
+	    <div class="ctrl">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+	   </div>
+  </div>
+    </div>
+
+</body>
+</html>
+
